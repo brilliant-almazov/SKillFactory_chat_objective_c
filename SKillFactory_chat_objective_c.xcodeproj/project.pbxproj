@@ -199,6 +199,7 @@
 		77034F88BC1EB735DBC5273B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = "";
 				ORGANIZATIONNAME = brilliantov.anton;
 			};
 			buildConfigurationList = 77034B8EA91E521414D4A480 /* Build configuration list for PBXProject "SKillFactory_chat_objective_c" */;
