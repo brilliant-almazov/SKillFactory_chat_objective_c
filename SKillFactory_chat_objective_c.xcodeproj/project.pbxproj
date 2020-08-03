@@ -206,7 +206,9 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
+				Base,
 			);
 			mainGroup = 77034B7D1C46180E729D4EEC;
 			productRefGroup = 77034BDD0EBC58FBBA81B1A5 /* Products */;
@@ -504,6 +506,7 @@
 				770347A522DE2400EE5A4EEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		77034B56CA4E3436D4658765 /* Build configuration list for PBXNativeTarget "SKillFactory_chat_objective_c" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +515,7 @@
 				77034317EB918C71B5921692 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		77034B8EA91E521414D4A480 /* Build configuration list for PBXProject "SKillFactory_chat_objective_c" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +533,7 @@
 				770349F7FC6B5AD68A0EF608 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
