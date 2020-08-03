@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		77034053A43AB2E5A3AD8C4D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7703421D6AC3630CB397AF0D /* AppDelegate.m */; };
+		7703406452045EB1236B5A2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 770344C0011BAFFE0748C950 /* LaunchScreen.storyboard */; };
+		770343834FE3B123F8A1224D /* SKillFactory_chat_objective_cTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 77034D51B07DC0F3C9A45079 /* SKillFactory_chat_objective_cTests.m */; };
+		7703439038CACC3AA9999873 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 77034EC123DE54568E5D8508 /* main.m */; };
+		770347658F02BC280BD4E2CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 770340ABEE492F62674E4056 /* Assets.xcassets */; };
+		7703497A146FC0EE14B8BEA9 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77034C20EBE2C42AB5622D11 /* SceneDelegate.m */; };
+		77034BA25AEC22263426AF83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 770344E7F4FAB0D3EAFE1651 /* Main.storyboard */; };
+		77034CEE7D3828EBBD4C21DE /* SKillFactory_chat_objective_cUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 77034FEEA79918FB8753CCB2 /* SKillFactory_chat_objective_cUITests.m */; };
+		77034E244AB9C8A8FA9EA4C2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77034A81634DD63BE0236C20 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		770347BF18785BABD364BEE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77034F88BC1EB735DBC5273B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77034DC78CEFB480113FBB43;
+			remoteInfo = SKillFactory_chat_objective_c;
+		};
+		77034E554ED7382A606EC83B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77034F88BC1EB735DBC5273B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77034DC78CEFB480113FBB43;
+			remoteInfo = SKillFactory_chat_objective_c;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		770340ABEE492F62674E4056 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		770340BE02C15EFD3448A2E2 /* SKillFactory_chat_objective_cTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKillFactory_chat_objective_cTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7703414F30ECE6CA24E059FE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7703421D6AC3630CB397AF0D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		77034288B0F14928BA596BCB /* SKillFactory_chat_objective_c.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKillFactory_chat_objective_c.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		770343CC2DEFB5CFAC30191C /* SKillFactory_chat_objective_cUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKillFactory_chat_objective_cUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		770344714FB35FC4431C3E7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		77034483F9F42FF1338D4BBD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		77034A6EA13F7A8132A1E205 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		77034A81634DD63BE0236C20 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		77034B94D3CD6C09AC719D24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		77034BA3AA1DB96F297501A9 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		77034C20EBE2C42AB5622D11 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		77034C27BCC16CB386BB9271 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		77034D51B07DC0F3C9A45079 /* SKillFactory_chat_objective_cTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKillFactory_chat_objective_cTests.m; sourceTree = "<group>"; };
+		77034EC123DE54568E5D8508 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		77034FA117EB3786AE50252A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		77034FEEA79918FB8753CCB2 /* SKillFactory_chat_objective_cUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKillFactory_chat_objective_cUITests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77034B75141FC8A417F99B24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77034C7104F61220C7461F28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77034DC59354132361CD292D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7703471CE1C617F2D55F5BD8 /* SKillFactory_chat_objective_c */ = {
+			isa = PBXGroup;
+			children = (
+				77034B94D3CD6C09AC719D24 /* Info.plist */,
+				770340ABEE492F62674E4056 /* Assets.xcassets */,
+				770344C0011BAFFE0748C950 /* LaunchScreen.storyboard */,
+				77034EC123DE54568E5D8508 /* main.m */,
+				77034483F9F42FF1338D4BBD /* AppDelegate.h */,
+				7703421D6AC3630CB397AF0D /* AppDelegate.m */,
+				77034BA3AA1DB96F297501A9 /* SceneDelegate.h */,
+				77034C20EBE2C42AB5622D11 /* SceneDelegate.m */,
+				7703414F30ECE6CA24E059FE /* ViewController.h */,
+				77034A81634DD63BE0236C20 /* ViewController.m */,
+				770344E7F4FAB0D3EAFE1651 /* Main.storyboard */,
+			);
+			path = SKillFactory_chat_objective_c;
+			sourceTree = "<group>";
+		};
+		770349513A3C928D0F8BF928 /* SKillFactory_chat_objective_cTests */ = {
+			isa = PBXGroup;
+			children = (
+				77034A6EA13F7A8132A1E205 /* Info.plist */,
+				77034D51B07DC0F3C9A45079 /* SKillFactory_chat_objective_cTests.m */,
+			);
+			path = SKillFactory_chat_objective_cTests;
+			sourceTree = "<group>";
+		};
+		770349D3824212019F052AD2 /* SKillFactory_chat_objective_cUITests */ = {
+			isa = PBXGroup;
+			children = (
+				77034C27BCC16CB386BB9271 /* Info.plist */,
+				77034FEEA79918FB8753CCB2 /* SKillFactory_chat_objective_cUITests.m */,
+			);
+			path = SKillFactory_chat_objective_cUITests;
+			sourceTree = "<group>";
+		};
+		77034B7D1C46180E729D4EEC = {
+			isa = PBXGroup;
+			children = (
+				77034BDD0EBC58FBBA81B1A5 /* Products */,
+				7703471CE1C617F2D55F5BD8 /* SKillFactory_chat_objective_c */,
+				770349513A3C928D0F8BF928 /* SKillFactory_chat_objective_cTests */,
+				770349D3824212019F052AD2 /* SKillFactory_chat_objective_cUITests */,
+			);
+			sourceTree = "<group>";
+		};
+		77034BDD0EBC58FBBA81B1A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77034288B0F14928BA596BCB /* SKillFactory_chat_objective_c.app */,
+				770340BE02C15EFD3448A2E2 /* SKillFactory_chat_objective_cTests.xctest */,
+				770343CC2DEFB5CFAC30191C /* SKillFactory_chat_objective_cUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77034BF8BDD53A0035F39E86 /* SKillFactory_chat_objective_cTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77034C3E1739ED0EBAA10044 /* Build configuration list for PBXNativeTarget "SKillFactory_chat_objective_cTests" */;
+			buildPhases = (
+				7703466B4282D0FF804BD289 /* Sources */,
+				77034DC59354132361CD292D /* Frameworks */,
+				77034D97BEE342EC3EA856EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77034CCB842CF27F6914B13B /* PBXTargetDependency */,
+			);
+			name = SKillFactory_chat_objective_cTests;
+			productName = SKillFactory_chat_objective_cTests;
+			productReference = 770340BE02C15EFD3448A2E2 /* SKillFactory_chat_objective_cTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		77034CA2AFE66298AD1F6F44 /* SKillFactory_chat_objective_cUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 770342F3553A0316481CFCEC /* Build configuration list for PBXNativeTarget "SKillFactory_chat_objective_cUITests" */;
+			buildPhases = (
+				770343E613A04E78290D7242 /* Sources */,
+				77034C7104F61220C7461F28 /* Frameworks */,
+				7703470582A262BF9BAC9F90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77034779DFE9F8864DCDE97A /* PBXTargetDependency */,
+			);
+			name = SKillFactory_chat_objective_cUITests;
+			productName = SKillFactory_chat_objective_cUITests;
+			productReference = 770343CC2DEFB5CFAC30191C /* SKillFactory_chat_objective_cUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		77034DC78CEFB480113FBB43 /* SKillFactory_chat_objective_c */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77034B56CA4E3436D4658765 /* Build configuration list for PBXNativeTarget "SKillFactory_chat_objective_c" */;
+			buildPhases = (
+				77034664824ACEBC46005B6C /* Sources */,
+				77034B75141FC8A417F99B24 /* Frameworks */,
+				77034AD704D051FB0E3C505F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SKillFactory_chat_objective_c;
+			productName = SKillFactory_chat_objective_c;
+			productReference = 77034288B0F14928BA596BCB /* SKillFactory_chat_objective_c.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77034F88BC1EB735DBC5273B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = brilliantov.anton;
+			};
+			buildConfigurationList = 77034B8EA91E521414D4A480 /* Build configuration list for PBXProject "SKillFactory_chat_objective_c" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 77034B7D1C46180E729D4EEC;
+			productRefGroup = 77034BDD0EBC58FBBA81B1A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77034DC78CEFB480113FBB43 /* SKillFactory_chat_objective_c */,
+				77034BF8BDD53A0035F39E86 /* SKillFactory_chat_objective_cTests */,
+				77034CA2AFE66298AD1F6F44 /* SKillFactory_chat_objective_cUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7703470582A262BF9BAC9F90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77034AD704D051FB0E3C505F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				770347658F02BC280BD4E2CC /* Assets.xcassets in Resources */,
+				7703406452045EB1236B5A2B /* LaunchScreen.storyboard in Resources */,
+				77034BA25AEC22263426AF83 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77034D97BEE342EC3EA856EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		770343E613A04E78290D7242 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77034CEE7D3828EBBD4C21DE /* SKillFactory_chat_objective_cUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77034664824ACEBC46005B6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7703439038CACC3AA9999873 /* main.m in Sources */,
+				77034053A43AB2E5A3AD8C4D /* AppDelegate.m in Sources */,
+				7703497A146FC0EE14B8BEA9 /* SceneDelegate.m in Sources */,
+				77034E244AB9C8A8FA9EA4C2 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7703466B4282D0FF804BD289 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				770343834FE3B123F8A1224D /* SKillFactory_chat_objective_cTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		77034779DFE9F8864DCDE97A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77034DC78CEFB480113FBB43 /* SKillFactory_chat_objective_c */;
+			targetProxy = 770347BF18785BABD364BEE4 /* PBXContainerItemProxy */;
+		};
+		77034CCB842CF27F6914B13B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77034DC78CEFB480113FBB43 /* SKillFactory_chat_objective_c */;
+			targetProxy = 77034E554ED7382A606EC83B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		770344C0011BAFFE0748C950 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77034FA117EB3786AE50252A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		770344E7F4FAB0D3EAFE1651 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				770344714FB35FC4431C3E7E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		77034317EB918C71B5921692 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SKillFactory_chat_objective_c/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anton.brilliantov.SKillFactory-chat-objective-c";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7703466C02250BE989C16B19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		770347A522DE2400EE5A4EEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SKillFactory_chat_objective_cUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anton.brilliantov.SKillFactory-chat-objective-cUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SKillFactory_chat_objective_c;
+			};
+			name = Release;
+		};
+		770349F7FC6B5AD68A0EF608 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SKillFactory_chat_objective_c.app/SKillFactory_chat_objective_c";
+				INFOPLIST_FILE = SKillFactory_chat_objective_cTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anton.brilliantov.SKillFactory-chat-objective-cTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		77034AD6905C74BDEEDFCCD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SKillFactory_chat_objective_cUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anton.brilliantov.SKillFactory-chat-objective-cUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SKillFactory_chat_objective_c;
+			};
+			name = Debug;
+		};
+		77034D01F9204899D3E71963 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SKillFactory_chat_objective_c/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anton.brilliantov.SKillFactory-chat-objective-c";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		77034D981B772BC47FDCBC81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SKillFactory_chat_objective_c.app/SKillFactory_chat_objective_c";
+				INFOPLIST_FILE = SKillFactory_chat_objective_cTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anton.brilliantov.SKillFactory-chat-objective-cTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		77034E381685C8DE2026B94C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		770342F3553A0316481CFCEC /* Build configuration list for PBXNativeTarget "SKillFactory_chat_objective_cUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77034AD6905C74BDEEDFCCD6 /* Debug */,
+				770347A522DE2400EE5A4EEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		77034B56CA4E3436D4658765 /* Build configuration list for PBXNativeTarget "SKillFactory_chat_objective_c" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77034D01F9204899D3E71963 /* Debug */,
+				77034317EB918C71B5921692 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		77034B8EA91E521414D4A480 /* Build configuration list for PBXProject "SKillFactory_chat_objective_c" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7703466C02250BE989C16B19 /* Debug */,
+				77034E381685C8DE2026B94C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77034C3E1739ED0EBAA10044 /* Build configuration list for PBXNativeTarget "SKillFactory_chat_objective_cTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77034D981B772BC47FDCBC81 /* Debug */,
+				770349F7FC6B5AD68A0EF608 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 77034F88BC1EB735DBC5273B /* Project object */;
+}

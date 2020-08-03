@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   version = "1.3">
+   <BuildAction>
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForRunning = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "77034DC78CEFB480113FBB43"
+               BuildableName = "SKillFactory_chat_objective_c.app"
+               BlueprintName = "SKillFactory_chat_objective_c"
+               ReferencedContainer = "container:SKillFactory_chat_objective_c.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <LaunchAction
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "77034DC78CEFB480113FBB43"
+            BuildableName = "SKillFactory_chat_objective_c.app"
+            BlueprintName = "SKillFactory_chat_objective_c"
+            ReferencedContainer = "container:SKillFactory_chat_objective_c.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </LaunchAction>
+</Scheme>
