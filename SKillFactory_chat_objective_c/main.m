@@ -66,11 +66,11 @@ int main(int argc, char *argv[]) {
   averageUserAge = (user1Age + use2age) / 2;
   NSLog(@"(36+25)/2 = %f", averageUserAge);
 
- /* int a = 5;
-  float b = 2;
-  int c = a / b;
+  /* int a = 5;
+   float b = 2;
+   int c = a / b;
 
-  NSLog(@"%i", c);*/
+   NSLog(@"%i", c);*/
 
   int startIndex = 0;
   ++startIndex;
@@ -84,7 +84,6 @@ int main(int argc, char *argv[]) {
   NSInteger c = -(a % b) * 2;
 
   NSLog(@"%li", c);
-
 
   NSNumber *num1 = @37.5;
   NSLog(@"num1: %@", num1);
